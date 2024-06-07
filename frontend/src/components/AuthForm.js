@@ -1,30 +1,31 @@
-import { useState } from 'react';
-import { Form } from 'react-router-dom';
+import { Form } from "react-router-dom";
+import { useState } from "react";
 
-import classes from './AuthForm.module.css';
+import classes from "./AuthForm.module.css";
 
 function AuthForm() {
   const [isLogin, setIsLogin] = useState(true);
 
   function switchAuthHandler() {
+    console.log("Log in");
     setIsLogin((isCurrentlyLogin) => !isCurrentlyLogin);
   }
-
   return (
     <>
+      <div>Auth Form</div>
       <Form method="post" className={classes.form}>
-        <h1>{isLogin ? 'Log in' : 'Create a new user'}</h1>
+        <h1>{isLogin ? "Log in" : "Create a new user"}</h1>
         <p>
           <label htmlFor="email">Email</label>
-          <input id="email" type="email" name="email" required />
+          <input type="email" id="email" name="email" required />
         </p>
         <p>
-          <label htmlFor="image">Password</label>
-          <input id="password" type="password" name="password" required />
+          <label htmlFor="password">Password</label>
+          <input type="password" id="password" name="password" required />
         </p>
         <div className={classes.actions}>
-          <button onClick={switchAuthHandler} type="button">
-            {isLogin ? 'Create new user' : 'Login'}
+          <button type="button" onClick={switchAuthHandler}>
+            {isLogin ? "Create new user" : "Login"}
           </button>
           <button>Save</button>
         </div>
@@ -32,5 +33,4 @@ function AuthForm() {
     </>
   );
 }
-
 export default AuthForm;

@@ -2,10 +2,38 @@
   "events": [
     {
       "title": "A new event",
-      "image": "https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQenqdG7aI8lO9ZimeHyl9MH2p67rmwalhaIA&s",
       "date": "2022-10-01",
       "description": "Some awesome event!",
       "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"
+    },
+    {
+      "title": "Event - 01",
+      "image": "https://spotme.com/wp-content/uploads/2020/07/Hero-1.jpg",
+      "date": "2022-11-15",
+      "description": "Some awesome event - 01!",
+      "id": "2a42fcc4-ea21-4bdd-abf6-c40106dc66a5"
+    },
+    {
+      "title": "Event - 02",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiTm2hp-PlhDSLBaE21tEasimbME4Z94X3kQ&s",
+      "date": "2022-06-04",
+      "description": "Some awesome event - 02!",
+      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a8"
+    },
+    {
+      "title": "Event - 03",
+      "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202404/66284bfdae2db-apple-event-may-7-24020423-16x9.jpg",
+      "date": "2022-09-10",
+      "description": "Some awesome event - 03!",
+      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a7"
+    },
+    {
+      "title": "Event - 04",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCthRyJ1Sh4X8HyhnyiqJLBxsULXwuz3TaRg&s",
+      "date": "2022-05-18",
+      "description": "Some awesome event - 04!",
+      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a6"
     }
   ],
   "users": []
