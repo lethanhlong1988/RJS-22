@@ -34,6 +34,13 @@
       "date": "2022-05-18",
       "description": "Some awesome event - 04!",
       "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a6"
+    },
+    {
+      "title": "Event - 05",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCthRyJ1Sh4X8HyhnyiqJLBxsULXwuz3TaRg&s",
+      "date": "2022-05-18",
+      "description": "Some awesome event - 05!",
+      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a4"
     }
   ],
   "users": []
